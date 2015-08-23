@@ -10,6 +10,8 @@
 ##      a$get()
 ##      a$setinv(variable)
 ##      a$getinv()
+##  Note: left the 'set()' function from the original code out since it isn't
+##  actually necessary for executing the cacheSolve function
 
 makeCacheMatrix <- function(x = matrix()) {
     i <- NULL
